@@ -46,14 +46,7 @@ al = hookfunc(hookfunction, function (...)
 	end
 	
 end)
-local al 
-al = hookfunc(setclipboard, function (...)
-	if getgenv().AntihookFF1["hook"] == true then
-		return al(...)
-	else
-		return 
-	end
-end)
+
 local an 
 an = hookfunc(replaceclosure, function (...)
 	if getgenv().AntihookFF1["print"] == true then
