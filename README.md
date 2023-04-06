@@ -20,7 +20,6 @@ local main = {
 	["8"] = warn,
 	["9"] = writefile,
 	["10"] = appendfile,
-	["11"] = setclipboard,
 }
 if getgenv().AntihookFF1 == nil then
 	getgenv().AntihookFF1 = {
